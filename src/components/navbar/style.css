@@ -1,0 +1,23 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+}
+
+.nav-link-container {
+  display: flex;
+  gap: 1rem;
+  list-style-type: none;
+  align-items: center;
+}
+
+.nav-link-container li a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-link-container li .active {
+  color: white;
+  background-color: black;
+}
